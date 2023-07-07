@@ -1,0 +1,5 @@
+0:0:0:0:0:0:0:1 - - [08/Mar/2023:00:01:44 +0630] "GET /shop/fruit?mode=LOAD&id=6 HTTP/1.1" 200 2755
+0:0:0:0:0:0:0:1 - - [08/Mar/2023:00:01:44 +0630] "GET /assets/Fruit-Update.jpg HTTP/1.1" 404 779
+0:0:0:0:0:0:0:1 - - [08/Mar/2023:00:02:37 +0630] "GET /shop/fruit-register.jsp HTTP/1.1" 200 2652
+0:0:0:0:0:0:0:1 - - [08/Mar/2023:00:06:51 +0630] "GET /shop/main HTTP/1.1" 200 17510
+0:0:0:0:0:0:0:1 - - [08/Mar/2023:00:06:51 +0630] "GET /assets/newfruit.jpg HTTP/1.1" 404 775

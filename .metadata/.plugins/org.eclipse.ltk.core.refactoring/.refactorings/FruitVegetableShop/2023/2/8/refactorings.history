@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;FruitVegetableShop/src/main/webapp/assets/fruit register.webp&apos; to &apos;fruit-register.webp&apos;" description="Rename resource &apos;fruit register.webp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/assets/fruit register.webp" name="fruit-register.webp" stamp="1677303146111" updateReferences="true"/>
+</session>

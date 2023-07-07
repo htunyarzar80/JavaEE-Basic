@@ -1,0 +1,22 @@
+<taglib>
+<tlib-version>1.0</tlib-version>
+<jsp-version>3.0.0</jsp-version>
+<short-name>mycore</short-name>
+
+<tag>
+	<name>Print</name>
+	<tag-class>customtag.PrintTag</tag-class>
+	<body-content>scriptless</body-content>
+	
+	<attribute>
+	<name>text</name>
+	<required>true</required>
+	</attribute>
+	
+	<attribute>
+	<name>style</name>
+	<required>true</required>
+	</attribute>
+</tag>
+
+</taglib>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="5.0">
+  <display-name>JSP_SERVLET</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+  <context-param>
+    <description>This is max file size for this size</description>
+    <param-name>MAX_FILE_SIZE</param-name>
+    <param-value>100MB</param-value>
+  </context-param>
+  <context-param>
+    <description>Our TeamName</description>
+    <param-name>TEAM_NAME</param-name>
+    <param-value>HostMdyCoder</param-value>
+  </context-param>
+  <servlet>
+    <description></description>
+    <display-name>EmployeeServlet</display-name>
+    <servlet-name>EmployeeServlet</servlet-name>
+    <servlet-class>servlet_test.EmployeeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EmployeeServlet</servlet-name>
+    <url-pattern>/employee</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ParameterServlet</display-name>
+    <servlet-name>ParameterServlet</servlet-name>
+    <servlet-class>servlet_test.ParameterServlet</servlet-class>
+    <init-param>
+      <description>This is param 1</description>
+      <param-name>param1</param-name>
+      <param-value>10000</param-value>
+    </init-param>
+    <init-param>
+      <description>This is param 2</description>
+      <param-name>param2</param-name>
+      <param-value>50000</param-value>
+    </init-param>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ParameterServlet</servlet-name>
+    <url-pattern>/param</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>MVCServlet</display-name>
+    <servlet-name>MVCServlet</servlet-name>
+    <servlet-class>servlet_test.MVCServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MVCServlet</servlet-name>
+    <url-pattern>/mvc</url-pattern>
+  </servlet-mapping>
+</web-app>

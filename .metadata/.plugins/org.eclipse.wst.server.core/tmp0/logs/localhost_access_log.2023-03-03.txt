@@ -1,0 +1,13 @@
+127.0.0.1 - - [03/Mar/2023:12:48:45 +0630] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [03/Mar/2023:12:49:16 +0630] "GET /shop/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [03/Mar/2023:12:49:17 +0630] "GET /shop/main HTTP/1.1" 200 16078
+0:0:0:0:0:0:0:1 - - [03/Mar/2023:12:49:17 +0630] "GET /shop/css/styles.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [03/Mar/2023:12:49:17 +0630] "GET /shop/css/custom.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [03/Mar/2023:12:49:17 +0630] "GET /shop/assets/pineapple.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [03/Mar/2023:12:49:17 +0630] "GET /shop/assets/strawberry.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [03/Mar/2023:12:49:17 +0630] "GET /shop/assets/kiwi.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [03/Mar/2023:12:49:17 +0630] "GET /shop/js/scripts.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [03/Mar/2023:12:49:17 +0630] "GET /assets/newfruit.jpg HTTP/1.1" 404 775
+0:0:0:0:0:0:0:1 - - [03/Mar/2023:12:49:17 +0630] "GET /shop/assets/hero-bg.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [03/Mar/2023:12:49:17 +0630] "GET /shop/assets/apple.webp HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [03/Mar/2023:12:49:17 +0630] "GET /shop/assets/newfruit.jpg HTTP/1.1" 304 -
